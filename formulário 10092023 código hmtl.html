@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<form action="#" method="post" style="border: 1px solid black; padding: 20px; width: 300px;">
+<form action="#" method="post" style="border: 1px solid black; padding: 20px; width: 400px;">
     <!-- Nome -->
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome" required><br><br>
@@ -17,11 +17,13 @@
     <input type="date" id="dataNascimento" name="dataNascimento" required><br><br>
 
     <!-- Sexo -->
-    <label>Sexo:</label>
+    <label>Sexo:</label><br>
     <input type="radio" id="masculino" name="sexo" value="masculino" required>
     <label for="masculino">Masculino</label>
     <input type="radio" id="feminino" name="sexo" value="feminino" required>
-    <label for="feminino">Feminino</label><br><br>
+    <label for="feminino">Feminino</label>
+    <input type="radio" id="naoInformar" name="sexo" value="naoInformar" required>
+    <label for="naoInformar">Prefiro não informar</label>
 
     <!-- Endereço -->
     <strong>Endereço:</strong><br>
